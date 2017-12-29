@@ -1,19 +1,19 @@
 /* Make sure the filename doesn't extend past the bounds of the container */
 .shiny-input-container input[type=file] {
     overflow: hidden;
-    max-width: 100%;
+    max-width: 200%;
 }
 
 .shiny-progress-container {
     position: fixed;
     top: 0px;
-    width: 100%;
+    width: 200%;
     z-index: 2000;
 }
 
 .shiny-progress .progress {
     position: absolute;
-    width: 100%;
+    width: 200%;
     top: 0px;
     /* The default height is only 1px which is find to be TINY */
     height: 8px;
